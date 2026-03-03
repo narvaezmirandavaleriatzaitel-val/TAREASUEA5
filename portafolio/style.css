@@ -1,9 +1,26 @@
 body{
     background-color: #8080ff;
-    color: #FF0000;
-    font-size: 40px;
+    color: #40e6fc;
+    
 }
 
+header{
+    background-color: aquamarine; 
+    padding: 10px;
+    font-size: 30px;
+}
+
+nav{
+    background-color:darkolivegreen;
+    padding: 10px;
+    
+}
+
+footer{
+    background-color:dodgerblue;
+    padding: 10px;
+    
+}
 h1{
     color: #FF00FF
 }
@@ -12,8 +29,15 @@ p{
     color: #0000FF
 }
 
-
 div{
+    margin: 0px;
+    padding: 10px;
+}
+
+
+
+
+div2{
     background: #AAAAAA;
     padding: 20px;
     border-style: dotted;
@@ -44,5 +68,5 @@ justify-content: left;
 }
 
 a{
-    color: #FF0000;
+    color: #6d9df8;
 }

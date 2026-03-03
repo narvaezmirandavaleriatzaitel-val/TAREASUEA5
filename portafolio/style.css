@@ -1,5 +1,5 @@
 body{
-    background-color: #FFFF00;
+    background-color: #8080ff;
     color: #FF0000;
     font-size: 40px;
 }
@@ -12,6 +12,7 @@ p{
     color: #0000FF
 }
 
+
 div{
     background: #AAAAAA;
     padding: 20px;
@@ -21,7 +22,27 @@ div{
     margin: 150px;
 }
 
-
-img{
+.imgR{
     border-radius: 50%;
+}
+
+.fotos {
+/* background-color: #8080ff; */
+background-color: #8080ff;
+border-style: none;
+margin: 0px;
+padding: 10px;
+display: flex;
+justify-content: left;
+}
+
+.divGral{
+    background-color: #0000FF;
+    border-style: none;
+    margin: 0px;
+    padding: 10px;
+}
+
+a{
+    color: #FF0000;
 }

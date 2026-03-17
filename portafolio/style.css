@@ -69,4 +69,16 @@ justify-content: left;
 
 a{
     color: #6d9df8;
+
 }
+.container div{
+    background-color:#884dff;
+    margin: 10px;
+    padding: 10px;
+    font-size: 10px;
+}
+
+
+
+
+

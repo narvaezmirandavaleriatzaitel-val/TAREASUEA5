@@ -1,81 +1,136 @@
-body{
+/* Estructura principal */
+body {
     background-color: #8080ff;
     color: #40e6fc;
-    
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header{
-    background-color: aquamarine; 
-    padding: 10px;
-    font-size: 30px;
+/* Contenedor general centrado con margen y ancho máximo */
+.container {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 15px;
 }
 
-nav{
-    background-color:darkolivegreen;
-    padding: 10px;
-    
+header {
+    background-color: aquamarine;
+    padding: 16px;
+    font-size: 32px;
+    margin-bottom: 14px;
+    border-radius: 8px;
 }
 
-footer{
-    background-color:dodgerblue;
-    padding: 10px;
-    
-}
-h1{
-    color: #FF00FF
+nav {
+    background-color: darkolivegreen;
+    padding: 12px;
+    margin-bottom: 14px;
+    border-radius: 8px;
 }
 
-p{
-    color: #0000FF
+nav .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
 }
 
-div{
-    margin: 0px;
-    padding: 10px;
+nav .menu li {
+    margin: 0;
+}
+
+nav .menu li a {
+    padding: 8px 12px;
+    background: #5a9b5a;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+nav .menu li a:hover {
+    background: #4f8c4f;
+}
+
+footer {
+    background-color: dodgerblue;
+    padding: 12px;
+    margin-top: 16px;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #FF00FF;
+    margin-top: 0;
+}
+
+p {
+    color: #0000FF;
+    line-height: 1.5;
+    margin: 0 0 12px 0;
+}
+
+/* Reinicio mínimo para divs, pero evita colisiones globables */
+div {
+    margin: 0;
+    padding: 0;
 }
 
 
 
 
-div2{
+.div2 {
     background: #AAAAAA;
     padding: 20px;
-    border-style: dotted;
-    border-width: 5px;
-    border-color: #FF00AA;
-    margin: 150px;
+    border: 3px dotted #FF00AA;
+    margin: 20px 0;
+    border-radius: 12px;
 }
 
-.imgR{
+.imgR {
     border-radius: 50%;
+    display: block;
+    margin: 0 auto 12px auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .fotos {
-/* background-color: #8080ff; */
-background-color: #8080ff;
-border-style: none;
-margin: 0px;
-padding: 10px;
-display: flex;
-justify-content: left;
+    background-color: #8080ff;
+    border: none;
+    margin: 0 0 16px 0;
+    padding: 12px;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
-.divGral{
-    background-color: #0000FF;
-    border-style: none;
-    margin: 0px;
-    padding: 10px;
+.divGral {
+    background-color: #000000;
+    border: none;
+    margin: 12px 0;
+    padding: 12px;
+    border-radius: 8px;
 }
 
-a{
+a {
     color: #6d9df8;
-
+    text-decoration: none;
 }
-.container div{
-    background-color:#884dff;
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container div {
+    background-color: #884dff;
     margin: 10px;
     padding: 10px;
-    font-size: 10px;
+    font-size: 12px;
+    border-radius: 6px;
 }
 
 
